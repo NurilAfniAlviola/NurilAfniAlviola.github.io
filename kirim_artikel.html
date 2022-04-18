@@ -1,0 +1,82 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <Title>Nuril Afni Alviola 141</Title>
+    <link rel = "stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class = "container">
+            <h1><a href="index.html">PEMROGRAMAN WEB</a></h1>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li ><a href="user.html">USER</a></li>
+                <li><a href="kategori.html">KATEGORI</a></li>
+                <li class="active"><a href="#">KIRIM ARTIKEL</a></li>
+                <li><a href="galeri.html">GALERI FOTO</a></li>
+                <li><a href="komentar.html">KOMENTAR</a></li>
+            </ul>
+        </div>
+    </header>
+    <header>
+        <div class="pembungkus">
+            <div class = "model">
+                <form action="" method="post">
+                    <fieldset style="width: max-content; border-radius: 10px; border-color: #e0ace2; 
+                    background: #cda3ce;">
+                    <legend style="color: white; padding: 5px; background: #7b4d7c; 
+                    border-radius: 5px;"> SEND ARTICLE </legend> 
+                    <table cellpadding = "5" cellspacing = "10" > 
+                        <tr>
+                            <td>Tanggal Kirim </td>
+                            <td>:</td>
+                            <td><input type="date" name="date" id="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Judul Artikel</td>
+                            <td>:</td>
+                            <td><input type="text" name="judul" id="judul"></td>
+                        </tr>
+                        <tr>
+                            <td>Kategori Artikel</td>
+                            <td>:</td>
+                            <td><select name="kategori">
+                                <option value="berita">Berita</option>
+                                <option value="ent">Entertaiment</option>
+                                <option value="sport">Sport</option>
+                                <option value="fsh">Fashion</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Kontributor </td>
+                            <td>:</td>
+                            <td><input type="text" name="kontributor" id="kontributor"></td>
+                        </tr>
+                        <tr>
+                            <td>Isi Artikel </td>
+                            <td>:</td>
+                            <td><textarea name="isi" value="Tuliskan Artikel Anda"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Tambahkan gambar </td>
+                            <td>:</td>
+                            <td><input type="file" value="Choose File" name="add"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Submit" name="submit" 
+                                style="background: #9F6287; color: white; padding: 5px;"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="footer">
+            <small>Copyright &copy; 2022 - Viola. All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+</html>
