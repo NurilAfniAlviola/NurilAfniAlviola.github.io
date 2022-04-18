@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  background-image: url("double-bubble-outline.png");
+  padding: 0;
+  margin:0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  background-color: #9F6287;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container:after{
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.container h1{
+  float: left;
+  padding: 20px 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.container ul{
+  float: right;
+}
+.container ul li{
+  display: inline-block;
+}
+.container ul li a{
+  padding: 25px 20px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: medium;
+}
+.container ul li a:hover{
+  background-color: #b895aa;
+  color: #fff;
+}
+
+.active{
+  background-color: #b895aa;
+  color: #fff;
+}
+
+section{
+  padding: 50px 0;
+}
+
+.label{
+  background-color: #aa829a;
+  color: #fff;
+  font-size: large;
+}
+
+.model{
+  width: 80%;
+  margin:auto;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -200px;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  height: 220px;
+}
+
+.pembungkus {
+  width: 800px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gambar {
+  height: 250px;
+  background-image: url("markus-winkler-aId-xYRTlEc-unsplash.jpg");
+  background-size: cover;
+}
+
+.konten {
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  color: #9F6287;
+}
+
+.konten h1.judul{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.isiartikel {
+  margin-top: 25px;
+}
+
+.isiartikel p {
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.isiartikel img.gambarisiartikel {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.kolomkiri {
+  box-sizing: border-box;
+  width: 70%;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  float: left;
+}
+
+.kolomkiri p.tanggalposting {
+  font-size: 10px;
+  color: rgb(231, 111, 81);
+  margin-top: 10px;
+  margin-bottom: 25px;
+  }
+
+.kolomkanan {
+  box-sizing: border-box;
+  width: 25%;
+  float: right;
+}
+
+.kolomkanan .judulsidebar {
+  background-color: #9F6287;
+  color: #ffffff ;
+  text-align: center;
+  padding: 10px;
+}
+
+.isisidebar p{
+  color: #000000;
+  text-align: justify;
+}
+.isisidebar .gambartentang {
+  width: 75px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: left;
+}
+
+.isisidebar ul {
+  line-height: 17px;
+}
+
+.isisidebar ul li {
+  margin-bottom: 5px;
+}
+
+.isisidebar ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.isisidebar ul li a:hover{
+  color: #e2c5d7;
+}
+
+.artikelpopuler {
+  margin-top: 20px;
+}
+
+.artikel {
+  margin-bottom: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.tombolselanjutnya{
+  background-color: #9F6287;
+  padding: 5px;
+}
+
+a.tombolselanjutnya {
+  text-decoration: none;
+  color: rgb(241, 250, 238);
+}
+
+a:hover.tombolselanjutnya {
+  background-color: #e2c5d7;
+  border-style: solid;
+  border-color: #9F6287;
+  border-width: 1.5px;
+}
+
+.footer {
+  padding: 10px;
+  font-size: medium;
+  background-color: rgb(146, 137, 148);
+  color: rgb(234, 226, 183);
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.foot2{
+  padding: 5px;
+  background-color: rgb(146, 137, 148);
+  color: rgb(234, 226, 183);
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
